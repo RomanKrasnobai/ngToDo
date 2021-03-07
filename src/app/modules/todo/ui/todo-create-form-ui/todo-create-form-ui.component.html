@@ -1,0 +1,4 @@
+<form action="#" [formGroup]="todoForm" (ngSubmit)="onCreate()">
+  <input type="text" name="name" formControlName="name">
+  <button [disabled]="!getControl('name').value?.length">Create item</button>
+</form>
