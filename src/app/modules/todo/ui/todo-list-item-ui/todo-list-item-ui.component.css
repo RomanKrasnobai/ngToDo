@@ -1,0 +1,9 @@
+.name {
+  padding-right: 10px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 0 5px;
+  margin-right: 5px;
+  border: 1px solid;
+}
