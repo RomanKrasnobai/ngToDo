@@ -1,5 +1,5 @@
 import {Action} from '@ngrx/store';
-import {TodoState} from "./todo.reducer";
+import {TodoState} from './todo.reducer';
 
 export enum todoActionsType {
   create = '[TODO] Create todo item',
